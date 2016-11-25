@@ -75,21 +75,6 @@
             android:layout_marginTop="30dp"
             android:gravity="bottom">
 
-            <Button
-                android:text="Show"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/buttonMap"
-                android:layout_weight="1"
-                android:onClick="showOnMap" />
-
-            <Button
-                android:text="Call"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/buttonCall"
-                android:layout_weight="1"
-                android:onClick="call" />
         </LinearLayout>
 
     </LinearLayout>

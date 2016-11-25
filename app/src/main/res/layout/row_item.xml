@@ -24,7 +24,7 @@
         android:layout_marginTop="10dp">
 
         <TextView
-            android:text="Drink"
+            android:text="Content: "
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/textView3"
@@ -33,9 +33,10 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/textViewListName"
+            android:id="@+id/textViewName"
             android:layout_weight="1"
-            android:layout_marginLeft="10dp" />
+            android:layout_marginLeft="10dp"
+            android:text="test" />
     </LinearLayout>
     <LinearLayout
         android:orientation="horizontal"
@@ -45,7 +46,7 @@
         android:layout_marginBottom="10dp">
 
         <TextView
-            android:text="Creator"
+            android:text="Creator:"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/textView4"

@@ -20,8 +20,8 @@ public class ShowDrinkActivity extends AppCompatActivity {
         Intent intent = getIntent();
         drink = (Drink) intent.getExtras().get("drink");
 
-        TextView viewFirstName = (TextView) findViewById(R.id.textViewListName);
-        TextView viewCreator = (TextView) findViewById(R.id.textViewListCreator);
+        TextView viewFirstName = (TextView) findViewById(R.id.textViewName);
+        TextView viewCreator = (TextView) findViewById(R.id.textViewcreator);
         TextView viewIngredients = (TextView) findViewById(R.id.textViewIngredients);
 
         viewFirstName.setText(drink.getName());

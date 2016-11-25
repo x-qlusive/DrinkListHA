@@ -50,10 +50,12 @@ public class CostumAdapter extends BaseAdapter {
         }
         TextView viewName=(TextView)view.findViewById(R.id.textViewListName);
         TextView viewCreator=(TextView)view.findViewById(R.id.textViewListCreator);
+        TextView viewContent = (TextView)view.findViewById(R.id.textViewName);
 
         Drink drink = listDrink.get(i);
         viewName.setText(drink.getName());
         viewCreator.setText(drink.getCreator());
+        viewContent.setText(drink.getIngredients());
 
         return view;
     }
